@@ -29,3 +29,6 @@ yarn-error.log*
 .env.test.local
 .env.production.local
 .env
+
+# added by me to clean things up
+.original-readme.md
