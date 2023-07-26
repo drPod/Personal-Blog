@@ -7,7 +7,7 @@ export default function Footer(): JSX.Element {
       <a href='https://www.cosmicjs.com' target='_blank' className='no-underline'>
         <div className='flex items-center space-x-2'>
           <CosmicLogo />
-          <span className='text-zinc-700 dark:text-zinc-300'>Proudly powered by Cosmic</span>
+          <span className='text-zinc-700 dark:text-zinc-300'>Website developed and maintained by Darsh Poddar</span>
         </div>
       </a>
       <div className='text-zinc-700 dark:text-zinc-300'>&copy;&nbsp;&nbsp;{new Date().getFullYear()} Cosmic</div>
