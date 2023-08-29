@@ -10,7 +10,7 @@ export default function Footer(): JSX.Element {
           <span className='text-zinc-700 dark:text-zinc-300'>Website developed and maintained by Darsh Poddar</span>
         </div>
       </a>
-      <div className='text-zinc-700 dark:text-zinc-300'>&copy;&nbsp;&nbsp;{new Date().getFullYear()} Cosmic</div>
+      <div className='text-zinc-700 dark:text-zinc-300'>&copy;&nbsp;&nbsp;{new Date().getFullYear()}</div>
     </footer>
   );
 }
