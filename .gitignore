@@ -32,3 +32,4 @@ yarn-error.log*
 
 # added by me to clean things up
 .original-readme.md
+.env.example
