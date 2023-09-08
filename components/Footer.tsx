@@ -6,7 +6,7 @@ export default function Footer(): JSX.Element {
     <footer className='mx-auto mt-8 flex w-full max-w-3xl items-center justify-between px-4 py-4 text-xs md:text-sm lg:px-0 lg:text-base'>
       <a href='https://github.com/drPod' target='_blank' className='no-underline'>
         <div className='flex items-center space-x-2'>
-          <span className='text-zinc-700 dark:text-zinc-300'>Website developed and maintained by Darsh Poddar</span>
+          <span className='text-zinc-700 dark:text-zinc-300'>This initiative was started and led by Darsh Poddar</span>
         </div>
       </a>
       <div className='text-zinc-700 dark:text-zinc-300'>&copy;&nbsp;&nbsp;{new Date().getFullYear()}</div>
