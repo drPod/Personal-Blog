@@ -5,6 +5,7 @@ import Generator from 'next/font/local';
 import Banner from '../components/Banner';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
+import FrontPage from '../components/FrontPage';
 
 const sans = Generator({
   src: '../fonts/Generator-Variable.ttf',
@@ -28,7 +29,9 @@ export default async function RootLayout({ children }: { children: React.ReactNo
         <Banner />
         <Header name={siteData} />
         {children}
+        <FrontPage />
         <Footer />
+
       </body>
     </html>
   );
